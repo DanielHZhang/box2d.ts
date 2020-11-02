@@ -1,12 +1,7 @@
 {
   "private": true,
   "workspaces": [
-    "packages/core",
-    "packages/controllers",
-    "packages/particles",
-    "packages/lights",
-    "packages/testbed",
-    "packages/benchmark"
+    "packages/*"
   ],
   "scripts": {
     "bench": "yarn workspace @box2d/benchmark test",
