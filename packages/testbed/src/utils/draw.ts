@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Vec2, b2Draw, b2Transform, b2Color, b2AABB, RGBA, XY, b2Clamp } from "@box2d/core";
+import { b2Vec2, b2Draw, b2Transform, b2Color, b2AABB, RGBA, XY, b2Clamp } from "@plane2d/core";
 
 import { g_camera } from "./camera";
 

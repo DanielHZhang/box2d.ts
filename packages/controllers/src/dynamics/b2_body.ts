@@ -18,7 +18,7 @@
 
 import { b2ControllerEdge } from "../controller/b2_controller";
 
-declare module "@box2d/core" {
+declare module "@plane2d/core" {
     export interface b2Body {
         m_controllerList: b2ControllerEdge | null;
 

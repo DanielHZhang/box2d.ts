@@ -29,7 +29,7 @@ import {
     b2DegToRad,
     XY,
     b2Vec2,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

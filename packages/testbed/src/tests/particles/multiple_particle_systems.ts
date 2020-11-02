@@ -16,8 +16,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Vec2, b2Color, b2PolygonShape, b2BodyType, b2MassData, XY } from "@box2d/core";
-import { b2ParticleSystem, b2ParticleSystemDef } from "@box2d/particles";
+import { b2Vec2, b2Color, b2PolygonShape, b2BodyType, b2MassData, XY } from "@plane2d/core";
+import { b2ParticleSystem, b2ParticleSystemDef } from "@plane2d/particles";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

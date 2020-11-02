@@ -16,8 +16,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2ContactFilter, b2Vec2, b2ChainShape, b2PolygonShape, XY } from "@box2d/core";
-import { b2ParticleGroupDef, b2ParticleFlag, b2ParticleGroup } from "@box2d/particles";
+import { b2ContactFilter, b2Vec2, b2ChainShape, b2PolygonShape, XY } from "@plane2d/core";
+import { b2ParticleGroupDef, b2ParticleFlag, b2ParticleGroup } from "@plane2d/particles";
 
 import { Test, RandomFloat } from "../../test";
 import { Settings } from "../../settings";

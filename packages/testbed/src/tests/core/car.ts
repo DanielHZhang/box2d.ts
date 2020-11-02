@@ -28,7 +28,7 @@ import {
     b2RevoluteJointDef,
     b2CircleShape,
     b2WheelJointDef,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

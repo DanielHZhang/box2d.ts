@@ -25,7 +25,7 @@ import {
     b2BodyType,
     b2DistanceJointDef,
     b2LinearStiffness,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

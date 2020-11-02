@@ -32,8 +32,8 @@ import {
     b2ContactImpulse,
     b2World,
     XY,
-} from "@box2d/core";
-import { b2ParticleGroup, b2ParticleGroupDef, b2ParticleFlag, b2ParticleSystem } from "@box2d/particles";
+} from "@plane2d/core";
+import { b2ParticleGroup, b2ParticleGroupDef, b2ParticleFlag, b2ParticleSystem } from "@plane2d/particles";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

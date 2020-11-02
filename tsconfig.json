@@ -3,15 +3,59 @@
     "target": "ES2018",
     "module": "CommonJS",
     "declaration": true,
-    "lib": ["ES2018", "DOM"],
+    "lib": [
+      "ES2018",
+      "DOM"
+    ],
     "strict": true,
     "noUnusedLocals": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": false,
     "declarationMap": true,
     "esModuleInterop": true,
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@plane2d/benchmark": [
+        "packages/core/src"
+      ],
+      "@plane2d/controllers": [
+        "packages/controllers/src"
+      ],
+      "@plane2d/core": [
+        "packages/core/src"
+      ],
+      "@plane2d/lights": [
+        "packages/lights/src"
+      ],
+      "@plane2d/particles": [
+        "packages/particles/src"
+      ],
+      "@plane2d/testbed": [
+        "packages/testbed/src"
+      ],
+    }
+  },
+  // "references": [
+  //   {
+  //     "path": "packages/core",
+  //   },
+  //   {
+  //     "path": "packages/controllers"
+  //   },
+  //   {
+  //     "path": "packages/particles"
+  //   },
+  //   {
+  //     "path": "packages/lights"
+  //   },
+  //   {
+  //     "path": "packages/benchmark"
+  //   },
+  //   {
+  //     "path": "packages/testbed"
+  //   },
+  // ],
 }

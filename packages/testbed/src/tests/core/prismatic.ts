@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2PrismaticJoint, b2EdgeShape, b2Vec2, b2PolygonShape, b2BodyType, b2PrismaticJointDef } from "@box2d/core";
+import { b2PrismaticJoint, b2EdgeShape, b2Vec2, b2PolygonShape, b2BodyType, b2PrismaticJointDef } from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

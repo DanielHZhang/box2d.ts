@@ -1,4 +1,4 @@
-import { b2PolygonShape, b2FixtureDef, b2BodyType, b2Vec2 } from "@box2d/core";
+import { b2PolygonShape, b2FixtureDef, b2BodyType, b2Vec2 } from "@plane2d/core";
 
 import { Test } from "../../test";
 

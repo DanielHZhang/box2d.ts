@@ -1,5 +1,5 @@
 {
-  "name": "@box2d/lights",
+  "name": "@plane2d/lights",
   "version": "0.7.0",
   "description": "A TypeScript port of Box2DLights",
   "homepage": "https://github.com/lusito/box2d.ts",

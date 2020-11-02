@@ -16,8 +16,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2PolygonShape, b2Vec2, b2CircleShape, XY } from "@box2d/core";
-import { b2ParticleFlag, b2ParticleGroupDef } from "@box2d/particles";
+import { b2PolygonShape, b2Vec2, b2CircleShape, XY } from "@plane2d/core";
+import { b2ParticleFlag, b2ParticleGroupDef } from "@plane2d/particles";
 
 import { Test } from "../../test";
 

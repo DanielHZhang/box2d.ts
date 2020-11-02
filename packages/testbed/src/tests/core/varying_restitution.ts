@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2EdgeShape, b2Vec2, b2CircleShape, b2FixtureDef, b2BodyType } from "@box2d/core";
+import { b2EdgeShape, b2Vec2, b2CircleShape, b2FixtureDef, b2BodyType } from "@plane2d/core";
 
 import { Test } from "../../test";
 

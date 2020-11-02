@@ -27,7 +27,7 @@ import {
     b2Color,
     b2Toi,
     XY,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

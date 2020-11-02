@@ -28,7 +28,7 @@ import {
     b2BodyType,
     b2RandomRange,
     b2AABB,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

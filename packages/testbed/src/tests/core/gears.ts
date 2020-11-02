@@ -28,7 +28,7 @@ import {
     b2RevoluteJointDef,
     b2GearJointDef,
     b2PrismaticJointDef,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 

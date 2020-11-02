@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2TimeStep, b2Body, b2Assert } from "@box2d/core";
+import { b2TimeStep, b2Body, b2Assert } from "@plane2d/core";
 
 /**
  * A controller edge is used to connect bodies and controllers

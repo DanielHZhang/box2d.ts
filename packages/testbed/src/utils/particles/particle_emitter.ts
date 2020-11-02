@@ -16,14 +16,14 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Vec2, b2Color, b2Assert } from "@box2d/core";
+import { b2Vec2, b2Color, b2Assert } from "@plane2d/core";
 import {
     b2ParticleSystem,
     b2ParticleFlag,
     b2ParticleGroup,
     b2ParticleGroupFlag,
     b2ParticleDef,
-} from "@box2d/particles";
+} from "@plane2d/particles";
 
 export class EmittedParticleCallback {
     /**

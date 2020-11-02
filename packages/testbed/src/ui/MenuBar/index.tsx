@@ -25,7 +25,7 @@ export const MenuBar = () => {
             <IterationsMenu />
             <SettingsMenu />
             <div className="menubar--spacer" />
-            <div className="menubar--title">@Box2D Testbed version {packageData.version}</div>
+            <div className="menubar--title">@plane2d Testbed version {packageData.version}</div>
             <div className="menubar--spacer" />
             <MenuButton label={paused ? "Continue (p)" : "Pause (p)"} onClick={() => manager.SetPause(!paused)} />
             <MenuButton label="Single Step (o)" onClick={() => manager.SingleStep()} />

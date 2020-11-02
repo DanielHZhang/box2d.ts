@@ -16,9 +16,9 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2TimeStep, b2_augment } from "@box2d/core";
+import { b2TimeStep, b2_augment } from "@plane2d/core";
 
-declare module "@box2d/core" {
+declare module "@plane2d/core" {
     interface b2StepConfig {
         particleIterations: number;
     }

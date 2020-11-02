@@ -16,9 +16,9 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2_augment, b2Body, b2Transform } from "@box2d/core";
+import { b2_augment, b2Body, b2Transform } from "@plane2d/core";
 
-declare module "@box2d/core" {
+declare module "@plane2d/core" {
     interface b2Body {
         readonly m_xf0: b2Transform;
     }

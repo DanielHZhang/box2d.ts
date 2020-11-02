@@ -27,7 +27,7 @@ import {
     b2RevoluteJointDef,
     b2EdgeShape,
     b2CircleShape,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { HotKey, hotKeyPress } from "../../utils/hotkeys";

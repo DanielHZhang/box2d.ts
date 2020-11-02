@@ -16,12 +16,12 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2World, b2_maxFloat, b2Transform, b2Body, b2_augment, b2Writeable, b2Assert } from "@box2d/core";
+import { b2World, b2_maxFloat, b2Transform, b2Body, b2_augment, b2Writeable, b2Assert } from "@plane2d/core";
 
 import { b2CalculateParticleIterations } from "../particle/b2_particle";
 import { b2ParticleSystem, b2ParticleSystemDef } from "../particle/b2_particle_system";
 
-declare module "@box2d/core" {
+declare module "@plane2d/core" {
     interface b2World {
         m_particleSystemList: b2ParticleSystem | null;
 

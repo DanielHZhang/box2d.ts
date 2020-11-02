@@ -26,7 +26,7 @@ import {
     b2DistanceJointDef,
     b2CircleShape,
     XY,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 

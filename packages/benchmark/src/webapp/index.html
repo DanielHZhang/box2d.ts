@@ -1,40 +1,48 @@
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>@box2d/benchmark</title>
-        <style>
-            th, td {
-                padding: 2px 5px;
-            }
-            table {
-                border-collapse: collapse;
-                margin-top: 5px;
-            }
-            td {
-                border: 1px solid gray;
-            }
-            th:first-child {
-                text-align: left;
-            }
-            progress {
-                width: 200px;
-            }
-        </style>
-    </head>
-    <body>
-        <button>Start</button>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>avg ms/frame</th>
-                    <th>5th %ile</th>
-                    <th>95th %ile</th>
-                    <th id="ratio">Ratio</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-        <script type="text/javascript" src="index.ts"></script>
-    </body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>@plane2d/benchmark</title>
+  <style>
+    th,
+    td {
+      padding: 2px 5px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin-top: 5px;
+    }
+
+    td {
+      border: 1px solid gray;
+    }
+
+    th:first-child {
+      text-align: left;
+    }
+
+    progress {
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <button>Start</button>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>avg ms/frame</th>
+        <th>5th %ile</th>
+        <th>95th %ile</th>
+        <th id="ratio">Ratio</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script type="text/javascript" src="index.ts"></script>
+</body>
+
 </html>

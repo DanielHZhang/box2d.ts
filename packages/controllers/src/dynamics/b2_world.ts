@@ -16,11 +16,11 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2World, b2Body, b2_augment } from "@box2d/core";
+import { b2World, b2Body, b2_augment } from "@plane2d/core";
 
 import { b2ControllerEdge, b2Controller } from "../controller/b2_controller";
 
-declare module "@box2d/core" {
+declare module "@plane2d/core" {
     interface b2World {
         m_controllerList: b2Controller | null;
         m_controllerCount: number;

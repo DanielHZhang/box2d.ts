@@ -25,7 +25,7 @@ import {
     b2BodyType,
     b2AngularStiffness,
     b2CircleShape,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 

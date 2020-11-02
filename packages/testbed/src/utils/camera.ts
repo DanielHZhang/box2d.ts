@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Vec2, XY } from "@box2d/core";
+import { b2Vec2, XY } from "@plane2d/core";
 import { vec3, mat4 } from "gl-matrix";
 
 const up: vec3 = [0, -1, 0];

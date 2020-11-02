@@ -52,6 +52,7 @@ export class b2Profile {
 export interface b2StepConfig {
     velocityIterations: number;
     positionIterations: number;
+    particleIterations: number;
 }
 
 /// This is an internal structure.
@@ -65,6 +66,7 @@ export class b2TimeStep {
     public config: b2StepConfig = {
         velocityIterations: 0,
         positionIterations: 0,
+        particleIterations: 0,
     };
 
     public warmStarting = false;

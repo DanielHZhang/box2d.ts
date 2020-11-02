@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Vec2, b2_maxFloat } from "@box2d/core";
+import { b2Vec2, b2_maxFloat } from "@plane2d/core";
 
 import { b2StackQueue } from "./b2_stack_queue";
 

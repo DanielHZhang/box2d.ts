@@ -16,7 +16,7 @@
  * misrepresented as being the original software.
  * 3. This notice may not be removed or altered from any source distribution.
  */
-import { b2Draw, b2Vec2, b2Color, b2World } from "@box2d/core";
+import { b2Draw, b2Vec2, b2Color, b2World } from "@plane2d/core";
 
 import { b2BuoyancyController } from "./b2_buoyancy_controller";
 

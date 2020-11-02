@@ -1,5 +1,5 @@
-import { b2World, b2Body } from "@box2d/core";
-import { RayHandler, Light, XY } from "@box2d/lights";
+import { b2World, b2Body } from "@plane2d/core";
+import { RayHandler, Light, XY } from "@plane2d/lights";
 
 export class RayHandlerImpl extends RayHandler {
     private readonly world: b2World;

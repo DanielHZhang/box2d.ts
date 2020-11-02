@@ -1,4 +1,4 @@
-import { Light } from "@box2d/lights";
+import { Light } from "@plane2d/lights";
 
 export function setRandomLightColor(light: Light) {
     // fixme: find way to choose random bright color

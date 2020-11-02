@@ -1,4 +1,4 @@
-import { b2World, b2Vec2, b2BodyType, b2PolygonShape, b2EdgeShape, XY } from "@box2d/core";
+import { b2World, b2Vec2, b2BodyType, b2PolygonShape, b2EdgeShape, XY } from "@plane2d/core";
 
 import { Test } from "../../test";
 

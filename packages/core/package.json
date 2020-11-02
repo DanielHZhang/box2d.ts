@@ -1,5 +1,5 @@
 {
-  "name": "@box2d/core",
+  "name": "@plane2d/core",
   "version": "0.7.0",
   "description": "A TypeScript port of Box2D",
   "homepage": "https://github.com/lusito/box2d.ts",

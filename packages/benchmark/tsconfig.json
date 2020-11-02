@@ -1,10 +1,14 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "ES2018",
     "module": "CommonJS",
     "declaration": true,
     "noEmit": true,
-    "lib": ["ES2018", "DOM"],
+    "lib": [
+      "ES2018",
+      "DOM"
+    ],
     "strict": true,
     "noUnusedLocals": true,
     "noImplicitReturns": true,
@@ -15,5 +19,7 @@
     "esModuleInterop": true,
     "moduleResolution": "node"
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

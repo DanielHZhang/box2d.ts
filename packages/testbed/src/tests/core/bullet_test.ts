@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Body, b2EdgeShape, b2Vec2, b2PolygonShape, b2BodyType, b2RandomRange, b2Gjk, b2Toi } from "@box2d/core";
+import { b2Body, b2EdgeShape, b2Vec2, b2PolygonShape, b2BodyType, b2RandomRange, b2Gjk, b2Toi } from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

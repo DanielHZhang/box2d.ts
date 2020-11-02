@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Assert } from "@box2d/core";
+import { b2Assert } from "@plane2d/core";
 
 // DEBUG: import { b2Assert } from "../common/b2_settings";
 

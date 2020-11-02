@@ -16,8 +16,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Assert } from "@box2d/core";
-import { b2ParticleFlag } from "@box2d/particles";
+import { b2Assert } from "@plane2d/core";
+import { b2ParticleFlag } from "@plane2d/particles";
 
 export enum ParticleParameterOptions {
     OptionStrictContacts = 1 << 0,

@@ -1,7 +1,7 @@
 {
-  "name": "@box2d/controllers",
+  "name": "@plane2d/controllers",
   "version": "0.7.0",
-  "description": "A TypeScript port of LiquidFuns controllers for @box2d/core",
+  "description": "A TypeScript port of LiquidFuns controllers for @plane2d/core",
   "homepage": "https://github.com/lusito/box2d.ts",
   "bugs": {
     "url": "https://github.com/lusito/box2d.ts/issues"
@@ -24,7 +24,7 @@
     "> 5%"
   ],
   "dependencies": {
-    "@box2d/core": "0.7.0"
+    "@plane2d/core": "0.7.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",

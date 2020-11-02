@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { XY, RGBA, b2Vec2, b2Clamp, b2Color } from "@box2d/core";
+import { XY, RGBA, b2Vec2, b2Clamp, b2Color } from "@plane2d/core";
 
 import { b2_invalidParticleIndex } from "./b2_settings";
 import type { b2ParticleGroup } from "./b2_particle_group";

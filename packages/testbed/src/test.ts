@@ -26,9 +26,9 @@ import {
     DrawAABBs,
     DrawCenterOfMasses,
     XY,
-} from "@box2d/core";
-import { b2ParticleGroup, b2ParticleSystem, b2ParticleSystemDef, DrawParticleSystems } from "@box2d/particles";
-import { DrawControllers } from "@box2d/controllers";
+} from "@plane2d/core";
+import { b2ParticleGroup, b2ParticleSystem, b2ParticleSystemDef, DrawParticleSystems } from "@plane2d/particles";
+import { DrawControllers } from "@plane2d/controllers";
 
 import { Settings } from "./settings";
 import { g_debugDraw } from "./utils/draw";

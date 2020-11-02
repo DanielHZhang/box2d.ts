@@ -1,4 +1,4 @@
-import { VertexBufferObject } from "@box2d/lights";
+import { VertexBufferObject } from "@plane2d/lights";
 
 import { setBounds, setRect, setRotatedRect } from "./vertex";
 import { DefaultShader } from "./defaultShader";

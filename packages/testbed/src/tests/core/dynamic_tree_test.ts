@@ -27,7 +27,7 @@ import {
     b2TreeNode,
     XY,
     b2Verify,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

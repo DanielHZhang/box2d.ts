@@ -34,8 +34,8 @@ import {
     b2Manifold,
     b2ContactImpulse,
     XY,
-} from "@box2d/core";
-import { b2ParticleHandle, b2ParticleSystem, b2ParticleFlag, b2ParticleGroup } from "@box2d/particles";
+} from "@plane2d/core";
+import { b2ParticleHandle, b2ParticleSystem, b2ParticleFlag, b2ParticleGroup } from "@plane2d/particles";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

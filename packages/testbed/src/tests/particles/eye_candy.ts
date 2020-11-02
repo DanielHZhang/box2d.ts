@@ -1,5 +1,5 @@
-import { b2Body, b2RevoluteJoint, b2BodyType, b2PolygonShape, b2Vec2, b2RevoluteJointDef } from "@box2d/core";
-import { b2ParticleGroupDef, b2ParticleFlag } from "@box2d/particles";
+import { b2Body, b2RevoluteJoint, b2BodyType, b2PolygonShape, b2Vec2, b2RevoluteJointDef } from "@plane2d/core";
+import { b2ParticleGroupDef, b2ParticleFlag } from "@plane2d/particles";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Timer, b2Vec2, b2PolygonShape, b2BodyType } from "@box2d/core";
+import { b2Timer, b2Vec2, b2PolygonShape, b2BodyType } from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

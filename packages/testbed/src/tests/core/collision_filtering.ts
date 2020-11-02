@@ -25,7 +25,7 @@ import {
     b2PrismaticJointDef,
     b2CircleShape,
     b2Filter,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 

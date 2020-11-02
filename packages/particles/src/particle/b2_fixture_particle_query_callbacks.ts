@@ -10,7 +10,7 @@ import {
     b2Vec2,
     b2Verify,
     b2_linearSlop,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { computeDistance } from "./b2_compute_distance";
 import { b2ParticleFlag } from "./b2_particle";

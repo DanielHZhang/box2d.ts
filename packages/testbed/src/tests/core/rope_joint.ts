@@ -26,7 +26,7 @@ import {
     b2FixtureDef,
     b2RevoluteJointDef,
     b2BodyType,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

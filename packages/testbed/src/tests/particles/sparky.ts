@@ -26,8 +26,8 @@ import {
     b2WorldManifold,
     b2PolygonShape,
     XY,
-} from "@box2d/core";
-import { b2ParticleGroup, b2ParticleSystem, b2ParticleFlag, b2ParticleGroupDef } from "@box2d/particles";
+} from "@plane2d/core";
+import { b2ParticleGroup, b2ParticleSystem, b2ParticleFlag, b2ParticleGroupDef } from "@plane2d/particles";
 
 import { Test, RandomFloat } from "../../test";
 import { Settings } from "../../settings";

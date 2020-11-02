@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Vec2, b2ChainShape, b2FixtureDef, b2BodyType, b2CircleShape, b2Body, b2RadToDeg, XY } from "@box2d/core";
+import { b2Vec2, b2ChainShape, b2FixtureDef, b2BodyType, b2CircleShape, b2Body, b2RadToDeg, XY } from "@plane2d/core";
 import {
     BlendFunc,
     ChainLight,
@@ -27,7 +27,7 @@ import {
     PointLight,
     RayHandler,
     RECOMMENDED_GAMMA_CORRECTION,
-} from "@box2d/lights";
+} from "@plane2d/lights";
 
 import { g_camera } from "../../utils/camera";
 import { g_debugDraw } from "../../utils/draw";

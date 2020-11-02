@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2EdgeShape, b2Vec2, b2AreaJointDef, b2BodyType, b2CircleShape, b2LinearStiffness, XY } from "@box2d/core";
+import { b2EdgeShape, b2Vec2, b2AreaJointDef, b2BodyType, b2CircleShape, b2LinearStiffness, XY } from "@plane2d/core";
 
 import { Test } from "../../test";
 

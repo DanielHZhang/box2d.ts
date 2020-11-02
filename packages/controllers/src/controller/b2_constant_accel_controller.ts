@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Vec2, b2TimeStep } from "@box2d/core";
+import { b2Vec2, b2TimeStep } from "@plane2d/core";
 
 import { b2Controller } from "./b2_controller";
 

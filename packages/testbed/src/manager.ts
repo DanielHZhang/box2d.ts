@@ -1,4 +1,4 @@
-import { b2Vec2, b2Clamp, b2Color } from "@box2d/core";
+import { b2Vec2, b2Clamp, b2Color } from "@plane2d/core";
 import { createContext, useContext } from "react";
 import { Signal } from "typed-signals";
 

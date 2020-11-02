@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Vec2, b2TimeStep, b2_epsilon } from "@box2d/core";
+import { b2Vec2, b2TimeStep, b2_epsilon } from "@plane2d/core";
 
 import { b2Controller, b2ControllerEdge } from "./b2_controller";
 import { b2SubmergedAreaForShape } from "./b2_submerged_area";

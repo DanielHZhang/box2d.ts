@@ -16,8 +16,8 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { BlendFunc, Light, lightSettings, PointLight, RayHandler, RECOMMENDED_GAMMA_CORRECTION } from "@box2d/lights";
-import { b2Vec2, b2EdgeShape, b2Body, b2Fixture } from "@box2d/core";
+import { BlendFunc, Light, lightSettings, PointLight, RayHandler, RECOMMENDED_GAMMA_CORRECTION } from "@plane2d/lights";
+import { b2Vec2, b2EdgeShape, b2Body, b2Fixture } from "@plane2d/core";
 
 import { g_camera } from "../../utils/camera";
 import { g_debugDraw } from "../../utils/draw";

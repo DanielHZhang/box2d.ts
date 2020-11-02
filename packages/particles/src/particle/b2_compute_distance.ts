@@ -27,7 +27,7 @@ import {
     b2_maxFloat,
     b2Rot,
     b2CircleShape,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 type ComputeDistanceFn<T extends b2Shape> = (
     shape: T,

@@ -24,7 +24,7 @@ import {
     b2CollidePolygons,
     b2WorldManifold,
     b2Color,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

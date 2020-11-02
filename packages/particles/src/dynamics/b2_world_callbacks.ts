@@ -15,13 +15,13 @@
  * misrepresented as being the original software.
  * 3. This notice may not be removed or altered from any source distribution.
  */
-import { b2DestructionListener, b2Fixture, b2ContactFilter, b2ContactListener } from "@box2d/core";
+import { b2DestructionListener, b2Fixture, b2ContactFilter, b2ContactListener } from "@plane2d/core";
 
 import { b2ParticleGroup } from "../particle/b2_particle_group";
 import { b2ParticleSystem, b2ParticleBodyContact, b2ParticleContact } from "../particle/b2_particle_system";
 
 // Declaration merging
-declare module "@box2d/core" {
+declare module "@plane2d/core" {
     interface b2DestructionListener {
         /// Called when any particle group is about to be destroyed.
         SayGoodbyeParticleGroup(group: b2ParticleGroup): void;

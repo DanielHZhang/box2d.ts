@@ -8,7 +8,7 @@ import {
     b2ShapeType,
     b2Shape,
     b2CircleShape,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 const ComputeSubmergedArea_s_normalL = new b2Vec2();
 const ComputeSubmergedArea_s_md = new b2MassData();

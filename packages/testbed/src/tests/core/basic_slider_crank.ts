@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2PolygonShape, b2BodyType, b2RevoluteJointDef, b2Vec2, b2PrismaticJointDef, XY } from "@box2d/core";
+import { b2PolygonShape, b2BodyType, b2RevoluteJointDef, b2Vec2, b2PrismaticJointDef, XY } from "@plane2d/core";
 
 import { Test } from "../../test";
 

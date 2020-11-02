@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { XY, RGBA, b2Shape, b2Vec2, b2Color, b2Transform, b2Assert } from "@box2d/core";
+import { XY, RGBA, b2Shape, b2Vec2, b2Color, b2Transform, b2Assert } from "@plane2d/core";
 
 import { b2ParticleFlag } from "./b2_particle";
 import type { b2ParticleSystem } from "./b2_particle_system";

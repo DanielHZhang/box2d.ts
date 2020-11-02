@@ -1,4 +1,4 @@
-import { DEG_TO_RAD } from "@box2d/lights";
+import { DEG_TO_RAD } from "@plane2d/lights";
 
 export function setRect(out: Float32Array, left: number, top: number, width: number, height: number) {
     const right = left + width;

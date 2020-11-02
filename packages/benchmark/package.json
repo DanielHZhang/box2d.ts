@@ -1,5 +1,5 @@
 {
-  "name": "@box2d/benchmark",
+  "name": "@plane2d/benchmark",
   "version": "0.7.0",
   "description": "A benchmark to compare various js/ts Box2D implementations",
   "homepage": "https://github.com/lusito/box2d.ts",
@@ -28,7 +28,7 @@
     "> 5%"
   ],
   "dependencies": {
-    "@box2d/core": "0.7.0",
+    "@plane2d/core": "0.7.0",
     "@flyover/box2d": "^1.0.1",
     "box2d.js": "^1.0.4",
     "planck-js": "^0.3.22"

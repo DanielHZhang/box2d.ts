@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Vec2, b2CircleShape, b2BodyType, b2RandomRange, b2PolygonShape, XY } from "@box2d/core";
+import { b2Vec2, b2CircleShape, b2BodyType, b2RandomRange, b2PolygonShape, XY } from "@plane2d/core";
 
 import { Test } from "../../test";
 

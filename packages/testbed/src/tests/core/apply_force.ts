@@ -27,7 +27,7 @@ import {
     b2BodyType,
     b2FrictionJointDef,
     XY,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { hotKeyPress, HotKey } from "../../utils/hotkeys";

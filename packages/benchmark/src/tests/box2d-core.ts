@@ -1,4 +1,4 @@
-import { b2World, b2Vec2, b2EdgeShape, b2PolygonShape, b2BodyType } from "@box2d/core";
+import { b2World, b2Vec2, b2EdgeShape, b2PolygonShape, b2BodyType } from "@plane2d/core";
 
 import { TestFactory } from "../types";
 
@@ -11,7 +11,7 @@ export const box2dCoreFactory: TestFactory = (gravity, edgeV1, edgeV2, edgeDensi
     ground.CreateFixture(edgeShape, edgeDensity);
 
     return {
-        name: "@box2d/core",
+        name: "@plane2d/core",
         createBoxShape(hx: number, hy: number) {
             const box = new b2PolygonShape();
             return box.SetAsBox(hx, hy);
@@ -27,7 +27,7 @@ export const box2dCoreFactory: TestFactory = (gravity, edgeV1, edgeV2, edgeDensi
             body.CreateFixture(shape, density);
         },
         step(timeStep: number, velocityIterations: number, positionIterations: number) {
-            world.Step(timeStep, { velocityIterations, positionIterations });
+            world.Step(timeStep, { velocityIterations, positionIterations, particleIterations: 0 });
         },
     };
 };

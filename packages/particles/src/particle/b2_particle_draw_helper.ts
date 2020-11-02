@@ -17,11 +17,11 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { XY, RGBA, b2Draw, b2World } from "@box2d/core";
+import { XY, RGBA, b2Draw, b2World } from "@plane2d/core";
 
 import { b2ParticleSystem } from "./b2_particle_system";
 
-declare module "@box2d/core" {
+declare module "@plane2d/core" {
     interface b2Draw {
         DrawParticles(centers: XY[], radius: number, colors: RGBA[] | null, count: number): void;
     }

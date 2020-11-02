@@ -16,7 +16,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2PulleyJoint, b2CircleShape, b2PolygonShape, b2BodyType, b2PulleyJointDef, b2Vec2, XY } from "@box2d/core";
+import { b2PulleyJoint, b2CircleShape, b2PolygonShape, b2BodyType, b2PulleyJointDef, b2Vec2, XY } from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

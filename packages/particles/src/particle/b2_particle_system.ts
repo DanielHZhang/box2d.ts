@@ -41,7 +41,7 @@ import {
     b2MassData,
     b2DistanceProxy,
     b2Assert,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 // DEBUG: import { b2Assert, b2_maxParticleIndex } from "../common/b2_settings";
 import {

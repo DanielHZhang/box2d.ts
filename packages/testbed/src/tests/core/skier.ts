@@ -2,7 +2,7 @@
 Test case for collision/jerking issue.
 */
 
-import { b2Body, b2Vec2, b2ChainShape, b2BodyType, b2PolygonShape } from "@box2d/core";
+import { b2Body, b2Vec2, b2ChainShape, b2BodyType, b2PolygonShape } from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

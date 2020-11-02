@@ -1,6 +1,6 @@
 // MIT License
 
-import { b2CalculateParticleIterations } from "@box2d/particles";
+import { b2CalculateParticleIterations } from "@plane2d/particles";
 
 // Copyright (c) 2019 Erin Catto
 

@@ -24,7 +24,7 @@ import {
     b2PolygonShape,
     b2RevoluteJointDef,
     b2PrismaticJointDef,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test } from "../../test";
 import { Settings } from "../../settings";

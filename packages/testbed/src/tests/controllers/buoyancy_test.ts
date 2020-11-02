@@ -16,8 +16,17 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { b2Body, b2EdgeShape, b2Vec2, b2BodyType, b2FixtureDef, b2PolygonShape, b2CircleShape, XY } from "@box2d/core";
-import { b2BuoyancyController } from "@box2d/controllers";
+import {
+    b2Body,
+    b2EdgeShape,
+    b2Vec2,
+    b2BodyType,
+    b2FixtureDef,
+    b2PolygonShape,
+    b2CircleShape,
+    XY,
+} from "@plane2d/core";
+import { b2BuoyancyController } from "@plane2d/controllers";
 
 import { Test } from "../../test";
 

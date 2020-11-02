@@ -31,7 +31,7 @@ import {
     b2Joint,
     b2FixtureDef,
     b2Contact,
-} from "@box2d/core";
+} from "@plane2d/core";
 
 import { Test, DestructionListener } from "../../test";
 import { Settings } from "../../settings";
