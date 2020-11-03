@@ -1,12 +1,7 @@
 /* eslint-disable */
 
-let requireFn: NodeRequire;
-
-export function nodeRequire<T>(moduleName: string) {
-    if (!requireFn) {
-        requireFn = eval("require");
-    }
-    return requireFn(moduleName) as T;
+export function nodeRequire<T = any>(moduleName: string) {
+    return eval("require")(moduleName) as T;
 }
 
 export const performance =
