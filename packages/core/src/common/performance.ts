@@ -1,8 +1,15 @@
 /* eslint-disable */
 
-type NodePerfHooks = typeof import("perf_hooks");
+let requireFn: NodeRequire;
+
+export function nodeRequire<T>(moduleName: string) {
+    if (!nodeRequire) {
+        requireFn = eval("require");
+    }
+    return requireFn(moduleName) as T;
+}
 
 export const performance =
     typeof globalThis.window !== "undefined"
         ? window.performance
-        : (require("perf_hooks") as NodePerfHooks).performance;
+        : nodeRequire<typeof import("perf_hooks")>("perf_hooks").performance;
