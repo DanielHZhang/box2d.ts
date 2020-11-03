@@ -3,7 +3,7 @@
 let requireFn: NodeRequire;
 
 export function nodeRequire<T>(moduleName: string) {
-    if (!nodeRequire) {
+    if (!requireFn) {
         requireFn = eval("require");
     }
     return requireFn(moduleName) as T;
